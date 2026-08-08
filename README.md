@@ -45,24 +45,6 @@ Proje reposu, kurs müfredatını adım adım takip eden Jupyter Notebook dosyal
 
 ---
 
-## 📐 Matematiksel Notasyon ve Altyapı
-
-Kurs boyunca kullanılan temel matematiksel gösterimler:
-
-- **$n$**: Toplam gözlem (satır) sayısı.
-- **$p$**: Değişken / Öznitelik (sütun) sayısı.
-- **$X \in \mathbb{R}^{n 	imes p}$**: $n$ satır ve $p$ sütundan oluşan girdi matrisi (Feature Matrix).
-- **$y \in \mathbb{R}^n$**: Hedef/Çıktı vektörü (Target/Label Vector).
-- **$f$**: Gerçek ancak bilinmeyen ilişki fonksiyonu ($y = f(X) + \epsilon$).
-- **$\hat{f}$**: Makine öğrenmesi modeli tarafından tahmin edilen fonksiyon.
-- **$\epsilon$**: İndirgenemez hata terimi (Irreducible Error).
-
-### Regresyon Başarım Metrikleri
-
-$$	ext{MSE} = rac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
-
-$$R^2 = 1 - rac{	ext{RSS}}{	ext{TSS}} = 1 - rac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - ar{y})^2}$$
-
 ---
 
 ## 🛠️ Kurulum ve Çalıştırma
