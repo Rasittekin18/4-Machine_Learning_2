@@ -114,4 +114,3 @@ print(f"R^2 Score: {r2_score(y_test, y_pred):.4f}")
 ```
 
 ---
-*Hazırlayan:* **Raşit Tekin** — [rasittekin.com](https://rasittekin.com)
